@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+    id 'org.spongepowered.gradle.vanilla' version '0.2.1-SNAPSHOT'
+}
+
+archivesBaseName = getArtifactID("common")
+
+minecraft {
+    version(minecraftVersion)
+}
+
+dependencies {
+    compileOnly "at.petra-k.paucal:paucal-common-$minecraftVersion:$paucalVersion"
+
+    compileOnly group: 'org.spongepowered', name: 'mixin', version: '0.8.5'
+}
+
+processResources {
+    def buildProps = project.properties.clone()
+
+    filesMatching(['pack.mcmeta']) {
+        expand buildProps
+    }
+}
+
+setupJar(this)

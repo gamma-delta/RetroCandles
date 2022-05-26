@@ -1,0 +1,32 @@
+{
+    "schemaVersion": 1,
+    "id": "retrocandles",
+    "version": "${version}",
+
+    "name": "Retro Candles",
+    "description": "Adds powerful torches from Minecraft's past, reincarnated as candles.",
+    "authors": [
+        "petrak@ (aka gamma-delta)"
+    ],
+    "contact": {
+
+    },
+
+    "license": "MIT",
+    "icon": "logo.png",
+
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "at.petrak.retrocandles.FabricRetroCandlesInit"
+        ]
+    },
+
+    "depends": {
+        "fabricloader": ">=0.13",
+        "fabric": ">=0.50",
+        "minecraft": "1.18.2",
+        "java": ">=17",
+        "paucal": "*"
+    }
+}
