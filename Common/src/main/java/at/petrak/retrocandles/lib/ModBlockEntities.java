@@ -1,5 +1,6 @@
 package at.petrak.retrocandles.lib;
 
+import at.petrak.retrocandles.common.block.entity.BlockEntityInterdictionCandle;
 import at.petrak.retrocandles.common.block.entity.BlockEntityTickAcceleratorCandle;
 import at.petrak.retrocandles.xplat.IXplatAbstractions;
 import net.minecraft.core.BlockPos;
@@ -26,8 +27,11 @@ public class ModBlockEntities {
     private static final Map<ResourceLocation, BlockEntityType<?>> BLOCK_ENTITIES = new LinkedHashMap<>();
 
     public static final BlockEntityType<BlockEntityTickAcceleratorCandle> TICKING_CANDLE = register(
-        "tick_accelerator_candle_entity",
+        "tick_accelerator_candle_tile",
         BlockEntityTickAcceleratorCandle::new, ModBlocks.TICKING_CANDLE);
+    public static final BlockEntityType<BlockEntityInterdictionCandle> INTERDICTION_CANDLE = register(
+        "interdiction_candle_tile",
+        BlockEntityInterdictionCandle::new, ModBlocks.INTERDICTION_CANDLE);
 
     private static <T extends BlockEntity> BlockEntityType<T> register(String id,
         BiFunction<BlockPos, BlockState, T> func, Block... blocks) {

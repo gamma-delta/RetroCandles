@@ -1,5 +1,6 @@
 package at.petrak.retrocandles.lib;
 
+import at.petrak.retrocandles.common.block.BlockInterdictionCandle;
 import at.petrak.retrocandles.common.block.BlockModCandle;
 import at.petrak.retrocandles.common.block.BlockTickAcceleratorCandle;
 import com.mojang.datafixers.util.Pair;
@@ -44,6 +45,8 @@ public class ModBlocks {
 
     public static final BlockTickAcceleratorCandle TICKING_CANDLE = blockItem("tick_accelerator_candle",
         new BlockTickAcceleratorCandle(candleProps(MaterialColor.COLOR_BLUE)));
+    public static final BlockInterdictionCandle INTERDICTION_CANDLE = blockItem("interdiction_candle",
+        new BlockInterdictionCandle(candleProps(MaterialColor.COLOR_BLUE)));
 
     private static <T extends Block> T blockNoItem(String name, T block) {
         var old = BLOCKS.put(modLoc(name), block);

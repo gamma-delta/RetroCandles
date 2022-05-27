@@ -1,0 +1,9 @@
+{
+    "block.retrocandles.tick_accelerator_candle": "Candlerino",
+    "block.retrocandles.interdiction_candle": "Interdiction Candle",
+
+    "item.retrocandles.sealing_wax": "Sealing Wax",
+
+    "itemGroup.retrocandles": "Retro Candles",
+    "itemGroup.retrocandles.creative_tab": "Retro Candles"
+}

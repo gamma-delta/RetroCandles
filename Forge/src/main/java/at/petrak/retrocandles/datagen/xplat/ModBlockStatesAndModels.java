@@ -17,6 +17,7 @@ public class ModBlockStatesAndModels extends PaucalBlockStateAndModelProvider {
     @Override
     protected void registerStatesAndModels() {
         candle(ModBlocks.TICKING_CANDLE, "tick_accelerator_candle");
+        candle(ModBlocks.INTERDICTION_CANDLE, "interdiction_candle");
     }
 
     protected void candle(BlockModCandle candle, String nameStub) {
@@ -24,8 +25,10 @@ public class ModBlockStatesAndModels extends PaucalBlockStateAndModelProvider {
             int candleCount = bs.getValue(BlockModCandle.CANDLES);
             var count = new String[]{"one", "two", "three", "four"}[candleCount - 1];
             var litness = bs.getValue(BlockModCandle.LIT) ? "_lit" : "";
-            var name = nameStub + "_" + count + litness;
-            var texName = modLoc("block/" + nameStub + litness);
+            var sealedness = bs.getValue(BlockModCandle.SEALED) ? "_sealed" : "";
+
+            var name = nameStub + "_" + count + litness + sealedness;
+            var texName = modLoc("block/" + nameStub + litness + sealedness);
             var template = new String[]{
                 "candle",
                 "two_candles",

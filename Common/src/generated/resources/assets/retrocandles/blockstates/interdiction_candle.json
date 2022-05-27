@@ -1,0 +1,100 @@
+{
+  "variants": {
+    "candles=1,lit=false,powered=false,sealed=false": {
+      "model": "retrocandles:block/interdiction_candle_one"
+    },
+    "candles=2,lit=false,powered=false,sealed=false": {
+      "model": "retrocandles:block/interdiction_candle_two"
+    },
+    "candles=3,lit=false,powered=false,sealed=false": {
+      "model": "retrocandles:block/interdiction_candle_three"
+    },
+    "candles=4,lit=false,powered=false,sealed=false": {
+      "model": "retrocandles:block/interdiction_candle_four"
+    },
+    "candles=1,lit=true,powered=false,sealed=false": {
+      "model": "retrocandles:block/interdiction_candle_one_lit"
+    },
+    "candles=2,lit=true,powered=false,sealed=false": {
+      "model": "retrocandles:block/interdiction_candle_two_lit"
+    },
+    "candles=3,lit=true,powered=false,sealed=false": {
+      "model": "retrocandles:block/interdiction_candle_three_lit"
+    },
+    "candles=4,lit=true,powered=false,sealed=false": {
+      "model": "retrocandles:block/interdiction_candle_four_lit"
+    },
+    "candles=1,lit=false,powered=true,sealed=false": {
+      "model": "retrocandles:block/interdiction_candle_one"
+    },
+    "candles=2,lit=false,powered=true,sealed=false": {
+      "model": "retrocandles:block/interdiction_candle_two"
+    },
+    "candles=3,lit=false,powered=true,sealed=false": {
+      "model": "retrocandles:block/interdiction_candle_three"
+    },
+    "candles=4,lit=false,powered=true,sealed=false": {
+      "model": "retrocandles:block/interdiction_candle_four"
+    },
+    "candles=1,lit=true,powered=true,sealed=false": {
+      "model": "retrocandles:block/interdiction_candle_one_lit"
+    },
+    "candles=2,lit=true,powered=true,sealed=false": {
+      "model": "retrocandles:block/interdiction_candle_two_lit"
+    },
+    "candles=3,lit=true,powered=true,sealed=false": {
+      "model": "retrocandles:block/interdiction_candle_three_lit"
+    },
+    "candles=4,lit=true,powered=true,sealed=false": {
+      "model": "retrocandles:block/interdiction_candle_four_lit"
+    },
+    "candles=1,lit=false,powered=false,sealed=true": {
+      "model": "retrocandles:block/interdiction_candle_one_sealed"
+    },
+    "candles=2,lit=false,powered=false,sealed=true": {
+      "model": "retrocandles:block/interdiction_candle_two_sealed"
+    },
+    "candles=3,lit=false,powered=false,sealed=true": {
+      "model": "retrocandles:block/interdiction_candle_three_sealed"
+    },
+    "candles=4,lit=false,powered=false,sealed=true": {
+      "model": "retrocandles:block/interdiction_candle_four_sealed"
+    },
+    "candles=1,lit=true,powered=false,sealed=true": {
+      "model": "retrocandles:block/interdiction_candle_one_lit_sealed"
+    },
+    "candles=2,lit=true,powered=false,sealed=true": {
+      "model": "retrocandles:block/interdiction_candle_two_lit_sealed"
+    },
+    "candles=3,lit=true,powered=false,sealed=true": {
+      "model": "retrocandles:block/interdiction_candle_three_lit_sealed"
+    },
+    "candles=4,lit=true,powered=false,sealed=true": {
+      "model": "retrocandles:block/interdiction_candle_four_lit_sealed"
+    },
+    "candles=1,lit=false,powered=true,sealed=true": {
+      "model": "retrocandles:block/interdiction_candle_one_sealed"
+    },
+    "candles=2,lit=false,powered=true,sealed=true": {
+      "model": "retrocandles:block/interdiction_candle_two_sealed"
+    },
+    "candles=3,lit=false,powered=true,sealed=true": {
+      "model": "retrocandles:block/interdiction_candle_three_sealed"
+    },
+    "candles=4,lit=false,powered=true,sealed=true": {
+      "model": "retrocandles:block/interdiction_candle_four_sealed"
+    },
+    "candles=1,lit=true,powered=true,sealed=true": {
+      "model": "retrocandles:block/interdiction_candle_one_lit_sealed"
+    },
+    "candles=2,lit=true,powered=true,sealed=true": {
+      "model": "retrocandles:block/interdiction_candle_two_lit_sealed"
+    },
+    "candles=3,lit=true,powered=true,sealed=true": {
+      "model": "retrocandles:block/interdiction_candle_three_lit_sealed"
+    },
+    "candles=4,lit=true,powered=true,sealed=true": {
+      "model": "retrocandles:block/interdiction_candle_four_lit_sealed"
+    }
+  }
+}

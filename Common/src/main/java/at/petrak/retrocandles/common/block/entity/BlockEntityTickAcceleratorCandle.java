@@ -55,7 +55,7 @@ public class BlockEntityTickAcceleratorCandle extends PaucalBlockEntity {
 
             if (!denylist.contains(IXplatAbstractions.INSTANCE.getID(blockHere).toString())) {
                 if (bsHere.isRandomlyTicking()
-                    && sworld.random.nextInt(64)
+                    && sworld.random.nextInt(128)
                     < tickCount * world.getGameRules().getInt(GameRules.RULE_RANDOMTICKING)) {
                     bsHere.randomTick(sworld, posHere, sworld.getRandom());
                 }

@@ -24,6 +24,8 @@ public class ModItems {
         return new Item.Properties().tab(IXplatAbstractions.INSTANCE.getTab());
     }
 
+    public static final Item SEALING_WAX = register("sealing_wax", new Item(props()));
+
     private static <T extends Item> T register(String id, T item) {
         var old = ITEMS.put(modLoc(id), item);
         if (old != null) {

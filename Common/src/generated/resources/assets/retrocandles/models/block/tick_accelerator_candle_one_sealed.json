@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_candle",
+  "textures": {
+    "all": "retrocandles:block/tick_accelerator_candle_sealed",
+    "particle": "retrocandles:block/tick_accelerator_candle_sealed"
+  }
+}

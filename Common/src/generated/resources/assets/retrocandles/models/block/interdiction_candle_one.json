@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_candle",
+  "textures": {
+    "all": "retrocandles:block/interdiction_candle",
+    "particle": "retrocandles:block/interdiction_candle"
+  }
+}

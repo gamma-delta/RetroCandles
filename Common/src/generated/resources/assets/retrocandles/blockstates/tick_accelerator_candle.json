@@ -1,28 +1,100 @@
 {
   "variants": {
-    "candles=1,lit=false": {
+    "candles=1,lit=false,powered=false,sealed=false": {
       "model": "retrocandles:block/tick_accelerator_candle_one"
     },
-    "candles=2,lit=false": {
+    "candles=2,lit=false,powered=false,sealed=false": {
       "model": "retrocandles:block/tick_accelerator_candle_two"
     },
-    "candles=3,lit=false": {
+    "candles=3,lit=false,powered=false,sealed=false": {
       "model": "retrocandles:block/tick_accelerator_candle_three"
     },
-    "candles=4,lit=false": {
+    "candles=4,lit=false,powered=false,sealed=false": {
       "model": "retrocandles:block/tick_accelerator_candle_four"
     },
-    "candles=1,lit=true": {
+    "candles=1,lit=true,powered=false,sealed=false": {
       "model": "retrocandles:block/tick_accelerator_candle_one_lit"
     },
-    "candles=2,lit=true": {
+    "candles=2,lit=true,powered=false,sealed=false": {
       "model": "retrocandles:block/tick_accelerator_candle_two_lit"
     },
-    "candles=3,lit=true": {
+    "candles=3,lit=true,powered=false,sealed=false": {
       "model": "retrocandles:block/tick_accelerator_candle_three_lit"
     },
-    "candles=4,lit=true": {
+    "candles=4,lit=true,powered=false,sealed=false": {
       "model": "retrocandles:block/tick_accelerator_candle_four_lit"
+    },
+    "candles=1,lit=false,powered=true,sealed=false": {
+      "model": "retrocandles:block/tick_accelerator_candle_one"
+    },
+    "candles=2,lit=false,powered=true,sealed=false": {
+      "model": "retrocandles:block/tick_accelerator_candle_two"
+    },
+    "candles=3,lit=false,powered=true,sealed=false": {
+      "model": "retrocandles:block/tick_accelerator_candle_three"
+    },
+    "candles=4,lit=false,powered=true,sealed=false": {
+      "model": "retrocandles:block/tick_accelerator_candle_four"
+    },
+    "candles=1,lit=true,powered=true,sealed=false": {
+      "model": "retrocandles:block/tick_accelerator_candle_one_lit"
+    },
+    "candles=2,lit=true,powered=true,sealed=false": {
+      "model": "retrocandles:block/tick_accelerator_candle_two_lit"
+    },
+    "candles=3,lit=true,powered=true,sealed=false": {
+      "model": "retrocandles:block/tick_accelerator_candle_three_lit"
+    },
+    "candles=4,lit=true,powered=true,sealed=false": {
+      "model": "retrocandles:block/tick_accelerator_candle_four_lit"
+    },
+    "candles=1,lit=false,powered=false,sealed=true": {
+      "model": "retrocandles:block/tick_accelerator_candle_one_sealed"
+    },
+    "candles=2,lit=false,powered=false,sealed=true": {
+      "model": "retrocandles:block/tick_accelerator_candle_two_sealed"
+    },
+    "candles=3,lit=false,powered=false,sealed=true": {
+      "model": "retrocandles:block/tick_accelerator_candle_three_sealed"
+    },
+    "candles=4,lit=false,powered=false,sealed=true": {
+      "model": "retrocandles:block/tick_accelerator_candle_four_sealed"
+    },
+    "candles=1,lit=true,powered=false,sealed=true": {
+      "model": "retrocandles:block/tick_accelerator_candle_one_lit_sealed"
+    },
+    "candles=2,lit=true,powered=false,sealed=true": {
+      "model": "retrocandles:block/tick_accelerator_candle_two_lit_sealed"
+    },
+    "candles=3,lit=true,powered=false,sealed=true": {
+      "model": "retrocandles:block/tick_accelerator_candle_three_lit_sealed"
+    },
+    "candles=4,lit=true,powered=false,sealed=true": {
+      "model": "retrocandles:block/tick_accelerator_candle_four_lit_sealed"
+    },
+    "candles=1,lit=false,powered=true,sealed=true": {
+      "model": "retrocandles:block/tick_accelerator_candle_one_sealed"
+    },
+    "candles=2,lit=false,powered=true,sealed=true": {
+      "model": "retrocandles:block/tick_accelerator_candle_two_sealed"
+    },
+    "candles=3,lit=false,powered=true,sealed=true": {
+      "model": "retrocandles:block/tick_accelerator_candle_three_sealed"
+    },
+    "candles=4,lit=false,powered=true,sealed=true": {
+      "model": "retrocandles:block/tick_accelerator_candle_four_sealed"
+    },
+    "candles=1,lit=true,powered=true,sealed=true": {
+      "model": "retrocandles:block/tick_accelerator_candle_one_lit_sealed"
+    },
+    "candles=2,lit=true,powered=true,sealed=true": {
+      "model": "retrocandles:block/tick_accelerator_candle_two_lit_sealed"
+    },
+    "candles=3,lit=true,powered=true,sealed=true": {
+      "model": "retrocandles:block/tick_accelerator_candle_three_lit_sealed"
+    },
+    "candles=4,lit=true,powered=true,sealed=true": {
+      "model": "retrocandles:block/tick_accelerator_candle_four_lit_sealed"
     }
   }
 }
