@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    "NCN",
+    " L "
+  ],
+  "key": {
+    "C": {
+      "tag": "minecraft:candles"
+    },
+    "L": {
+      "item": "minecraft:clock"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "retrocandles:tick_accelerator_candle"
+  }
+}

@@ -21,6 +21,7 @@ public class ModDataGenerators {
             }
             if (evt.includeServer()) {
                 gen.addProvider(new ModLootTables(gen));
+                gen.addProvider(new ModRecipes(gen));
             }
         } else {
         }
