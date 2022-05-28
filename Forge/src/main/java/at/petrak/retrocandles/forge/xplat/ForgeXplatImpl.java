@@ -38,7 +38,7 @@ public class ForgeXplatImpl implements IXplatAbstractions {
     @Override
     public CreativeModeTab getTab() {
         if (TAB == null) {
-            TAB = new CreativeModeTab(RetroCandlesAPI.MOD_ID) {
+            TAB = new CreativeModeTab(RetroCandlesAPI.MOD_ID + ".creative_tab") {
                 @Override
                 public ItemStack makeIcon() {
                     return ModItems.tabIcon();

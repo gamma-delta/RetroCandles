@@ -1,0 +1,5 @@
+{
+    "name": "this should never display",
+    "description": "cause it's a pamphlet",
+    "icon": "minecraft:barrier"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "block.retrocandles.interdiction_candle",
+    "icon": "retrocandles:interdiction_candle",
+    "sortnum": 1,
+    "category": "retrocandles:root",
+    "pages": [
+        "retrocandles.interdiction.1",
+        "retrocandles.interdiction.2",
+        {
+            "type": "patchouli:crafting",
+            "recipe": "retrocandles:interdiction_candle",
+            "text": "retrocandles.interdiction.3"
+        }
+    ]
+}

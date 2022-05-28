@@ -3,9 +3,11 @@ package at.petrak.retrocandles.datagen;
 import at.petrak.paucal.api.datagen.PaucalRecipeProvider;
 import at.petrak.retrocandles.api.RetroCandlesAPI;
 import at.petrak.retrocandles.lib.ModBlocks;
+import at.petrak.retrocandles.lib.ModItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
+import net.minecraft.data.recipes.ShapelessRecipeBuilder;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 
@@ -29,24 +31,23 @@ public class ModRecipes extends PaucalRecipeProvider {
             .unlockedBy("has_item", hasItem(ItemTags.CANDLES))
             .save(recipes);
 
+        // Yeah this recipe is OP
+        // this is a Timmy-ass mod alright?
         ShapedRecipeBuilder.shaped(ModBlocks.TICKING_CANDLE)
             .define('C', ItemTags.CANDLES)
             .define('L', Items.CLOCK)
-            .define('N', Items.NETHER_STAR) // high quality gaming
             .pattern(" L ")
-            .pattern("NCN")
+            .pattern("LCL")
             .pattern(" L ")
             .unlockedBy("has_item", hasItem(ItemTags.CANDLES))
             .save(recipes);
-        ShapedRecipeBuilder.shaped(ModBlocks.TICKING_CANDLE)
-            .define('C', ItemTags.CANDLES)
-            .define('L', Items.CLOCK)
-            .define('N', Items.NETHER_STAR)
-            .pattern(" N ")
-            .pattern("LCL")
-            .pattern(" N ")
+
+        ShapelessRecipeBuilder.shapeless(ModItems.SEALING_WAX, 4)
+            .requires(ItemTags.CANDLES)
+            .requires(Items.CLAY)
+            .requires(Items.LAPIS_LAZULI)
             .unlockedBy("has_item", hasItem(ItemTags.CANDLES))
-            .save(recipes, modLoc("tick_accelerator_candle_rotated"));
+            .save(recipes);
 
     }
 }

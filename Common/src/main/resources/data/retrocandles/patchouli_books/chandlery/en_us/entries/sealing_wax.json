@@ -1,0 +1,17 @@
+{
+    "name": "item.retrocandles.sealing_wax",
+    "icon": "retrocandles:sealing_wax",
+    "sortnum": 999,
+    "category": "retrocandles:root",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "retrocandles.sealing_wax.1"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "retrocandles:sealing_wax",
+            "text": "retrocandles.sealing_wax.2"
+        }
+    ]
+}

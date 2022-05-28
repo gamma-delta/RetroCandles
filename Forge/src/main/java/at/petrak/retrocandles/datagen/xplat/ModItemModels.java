@@ -18,5 +18,8 @@ public class ModItemModels extends PaucalItemModelProvider {
 
         simpleItem(ModBlocks.TICKING_CANDLE.asItem());
         simpleItem(ModBlocks.INTERDICTION_CANDLE.asItem());
+
+        // patchi
+        simpleItem(modLoc("chandlery"));
     }
 }

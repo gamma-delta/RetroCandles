@@ -1,0 +1,11 @@
+{
+    "name": "retrocandles.welcome.title",
+    "icon": "retrocandles:textures/item/chandlery.png",
+    "priority": true,
+    "category": "retrocandles:root",
+    "pages": [
+        "retrocandles.welcome.1",
+        "retrocandles.welcome.2",
+        "retrocandles.welcome.3"
+    ]
+}

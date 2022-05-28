@@ -1,0 +1,15 @@
+{
+    "name": "block.retrocandles.tick_accelerator_candle",
+    "icon": "retrocandles:tick_accelerator_candle",
+    "sortnum": 0,
+    "category": "retrocandles:root",
+    "pages": [
+        "retrocandles.tac.1",
+        "retrocandles.tac.2",
+        {
+            "type": "patchouli:crafting",
+            "recipe": "retrocandles:tick_accelerator_candle",
+            "text": "retrocandles.tac.3"
+        }
+    ]
+}

@@ -3,7 +3,26 @@
     "block.retrocandles.interdiction_candle": "Interdiction Candle",
 
     "item.retrocandles.sealing_wax": "Sealing Wax",
+    "item.retrocandles.book": "Chandlery",
 
-    "itemGroup.retrocandles": "Retro Candles",
-    "itemGroup.retrocandles.creative_tab": "Retro Candles"
+    "itemGroup.retrocandles.creative_tab": "Retro Candles",
+
+    "retrocandles.book.subtitle": "The Art of Candlemaking",
+    "retrocandles.landing": "Retro Candles adds back powerful torches from Minecraft mods of old, reincarnated as candles.",
+
+    "retrocandles.welcome.title": "Welcome!",
+    "retrocandles.welcome.1": "Welcome to $(thing)Retro Candles/$!$(br2)This mod adds (as you might expect) candles, which affect things bathed in their light. $(br2)Just like vanilla candles, you can place up to four in a block space, and the effects will get stronger the more candles in one spot.",
+    "retrocandles.welcome.2": "You can also apply $(l:sealing_wax)$(item)Sealing Wax/$ to a group of candles to change their effect, making them do something similar, but different.$(br2)For example, the $(l:candlerino)$(item)Candlerino/$ usually has a larger radius of effect per candle, but when sealed the effect becomes more concentrated in a smaller area.",
+    "retrocandles.welcome.3": "Candles start unlit when placed. You can light or extinguish them by using an empty hand on them. Candles only do anything when lit.$(br2)For automation purposes, they also respond to redstone. Giving a group of candles redstone power will light them, and removing the power will extinguish them.",
+
+    "retrocandles.tac.1": "The $(item)Candlerino/$ speeds up time around itself. More technically, it accelerates the rate at which blocks around it tick.$(br2)Furnaces smelt faster, plants grow quicker, and amethyst buds grow more, for example. Machines and apparati from other mods will also be similarly sped up.",
+    "retrocandles.tac.2": "One $(item)Candlerino/$ has a radius of 1 block, making time go about twice as fast in the 8 blocks around it. Each extra $(item)Candlerino/$ increases the range by 1.$(br2)When sealed, the effect becomes concentrated. The range will never go beyond one block, but one candle will speed up time threefold, and each extra candle will add one to that multiplier.",
+    "retrocandles.tac.3": "$(italic)There's been a Dire need for this block/$",
+
+    "retrocandles.interdiction.1": "Monsters dare not walk into the eerie glow of an $(item)Interdiction Candle/$. Both hostile mobs and their projectiles will be unable to enter the radius of an $(item)Interdiction Candle/$. Upon trying to enter the radius, they will be forcefully pushed out.",
+    "retrocandles.interdiction.2": "One $(item)Interdiction Candle/$ has a radius of 3 blocks, with each candle adding two blocks to the radius.$(br2)When sealed, the candle will instead draw any hostile mobs or projectiles within its radius $(italic)towards/$ itself. The range is unchanged whether sealed or unsealed.",
+    "retrocandles.interdiction.3": "$(italic)You defy the light!/$",
+
+    "retrocandles.sealing_wax.1": "Apply $(item)Sealing Wax/$ to a candle to change its effect. What each candle does when sealed and unsealed is shown on its respective page.$(br2)You can remove sealing wax from a candle at any time by sneak-using an empty hand on it.",
+    "retrocandles.sealing_wax.2": "$(italic)Stick it to the man/$"
 }
