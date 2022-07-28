@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:honeycomb"
+      "tag": "minecraft:candles"
     },
     {
       "item": "minecraft:clay"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:blue_dye"
     }
   ],
   "result": {

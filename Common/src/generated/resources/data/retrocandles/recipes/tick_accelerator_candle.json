@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     " L ",
-    "NCN",
+    "SCS",
     " L "
   ],
   "key": {
@@ -12,7 +12,7 @@
     "L": {
       "item": "minecraft:clock"
     },
-    "N": {
+    "S": {
       "item": "minecraft:nether_star"
     }
   },

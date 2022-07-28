@@ -31,13 +31,12 @@ public class ModRecipes extends PaucalRecipeProvider {
             .unlockedBy("has_item", hasItem(ItemTags.CANDLES))
             .save(recipes);
 
-        // Yeah this recipe is OP
-        // this is a Timmy-ass mod alright?
         ShapedRecipeBuilder.shaped(ModBlocks.TICKING_CANDLE)
             .define('C', ItemTags.CANDLES)
             .define('L', Items.CLOCK)
+            .define('S', Items.NETHER_STAR)
             .pattern(" L ")
-            .pattern("LCL")
+            .pattern("SCS")
             .pattern(" L ")
             .unlockedBy("has_item", hasItem(ItemTags.CANDLES))
             .save(recipes);
@@ -45,7 +44,7 @@ public class ModRecipes extends PaucalRecipeProvider {
         ShapelessRecipeBuilder.shapeless(ModItems.SEALING_WAX, 4)
             .requires(ItemTags.CANDLES)
             .requires(Items.CLAY)
-            .requires(Items.LAPIS_LAZULI)
+            .requires(Items.BLUE_DYE)
             .unlockedBy("has_item", hasItem(ItemTags.CANDLES))
             .save(recipes);
 
